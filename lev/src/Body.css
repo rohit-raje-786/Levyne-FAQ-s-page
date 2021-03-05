@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif
+}
+h1
+{    
+    font-size: 44px;
+    
+    
+    color: black;
+}
+.header
+{
+    margin-bottom: 70px;
+}
+@media only screen and (max-width:635px)
+{
+    .header>h1{
+        font-size:2.1rem;
+    }
+    
+}

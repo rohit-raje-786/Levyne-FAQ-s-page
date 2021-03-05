@@ -1,0 +1,65 @@
+.main-content
+{
+    
+    margin: auto;
+    width: 50%;
+}
+.line
+{
+   
+    background-color: grey;
+    opacity: 0.2;
+    height: 1px;
+}
+.question{
+  font-weight: 600;
+  letter-spacing: 1px;
+  
+  font-size: 18px;
+}
+.ans
+{
+    color: grey;
+    letter-spacing: 1px;
+   word-spacing: 1px;
+   padding: 2px;
+}
+.question-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question-container>button>i{
+    
+    font-size: 1.2em;
+    color: #2174ea;
+    
+}
+.ans
+{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.ans.active
+{
+    overflow: auto;
+    height: 80px;
+    
+}
+.question-container>button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+@media only screen and (max-width:635px)
+{
+    .main-content{
+        width: 90%;
+    }
+    
+}
